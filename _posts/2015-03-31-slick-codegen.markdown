@@ -19,6 +19,7 @@ CREATE TABLE `action` (
   ENGINE = InnoDB
   DEFAULT CHARSET = utf8;
 {% endhighlight %}
+<i class="fa fa-arrow-right"></i> [view on <i class="fa fa-github-alt"></i>](https://github.com/ArnaudT/slick-codegen/blob/master/src/main/resources/db/Schema.sql)
 
 ## SBT generator configuration
 The `build.sbt` file looks like the following.
@@ -59,6 +60,7 @@ val jdbcDriver = "com.mysql.jdbc.Driver"
   Seq(file(fname))
 }
 {% endhighlight %}
+<i class="fa fa-arrow-right"></i> [view on <i class="fa fa-github-alt"></i>](https://github.com/ArnaudT/slick-codegen/blob/master/build.sbt)
 
 ## DAO example with slick 3
 You can now use the generated `Tables` class.
@@ -84,6 +86,7 @@ case class ActionDaoImpl(db: Database) extends ActionDao {
   }
 }
 {% endhighlight %}
+<i class="fa fa-arrow-right"></i> [view on <i class="fa fa-github-alt"></i>](https://github.com/ArnaudT/slick-codegen/blob/master/src/main/scala/me/arnaudtanguy/dao/ActionDao.scala)
 
 ## Tests
 The tests use [ScalaTest](http://www.scalatest.org) with the `ScalaFutures` trait to get the future value.
@@ -115,6 +118,7 @@ class ActionDaoSpec extends FlatSpec with Matchers with ScalaFutures {
   }
 }
 {% endhighlight %}
+<i class="fa fa-arrow-right"></i> [view on <i class="fa fa-github-alt"></i>](https://github.com/ArnaudT/slick-codegen/blob/master/src/test/scala/me/arnaudtanguy/dao/ActionDaoSpec.scala)
 
 You can find the project sources on GitHub: [slick-codegen](https://github.com/ArnaudT/slick-codegen).
 
