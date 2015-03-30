@@ -122,4 +122,6 @@ class ActionDaoSpec extends FlatSpec with Matchers with ScalaFutures {
 
 You can find the project sources on GitHub: [slick-codegen](https://github.com/ArnaudT/slick-codegen).
 
+More information about code generation on the [official Slick documentation](http://slick.typesafe.com/doc/3.0.0-RC2/code-generation.html).
+
 <iframe src="https://ghbtns.com/github-btn.html?user=ArnaudT&repo=slick-codegen&type=fork&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
