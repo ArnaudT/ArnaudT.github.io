@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Scala & Akka Best Practices"
-date:   2015-03-25 23:20:31
+date:   2015-03-25 00:00:00
 tags: [scala, akka]
 ---
 

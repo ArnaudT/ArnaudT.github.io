@@ -4,3 +4,5 @@
   name: Future
 - slug: akka
   name: Akka
+- slug: slick
+  name: Slick
