@@ -23,7 +23,7 @@ CREATE TABLE `action` (
 
 ## SBT generator configuration
 The `build.sbt` file looks like the following.
-This configuration will generate the code in a class named `Tables.scala`.
+This configuration will generate the slick code from the MySQL tables in a class named `Tables.scala`.
 
 {% highlight scala %}
 name := "slickCodeGen"
