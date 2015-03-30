@@ -5,8 +5,12 @@ description: > # this means to ignore newlines until "baseurl:"
   Let's write a better code together! :D
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://arnaudt.github.io" # the base hostname & protocol for your site
-twitter_username: ArnaudTanguy
-github_username:  ArnaudT
+twitter_username:   ArnaudTanguy
+github_username:    ArnaudT
+linkedin_username:  TanguyArnaud
+angellist_username: arnaud-tanguy
+vimeo_username:     arnot
+flickr_username:    arnaudtanguy
 
 # Build settings
 markdown: kramdown
