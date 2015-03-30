@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Slick 3 example with Code Generator"
+title:  "Slick 3 example with code generator"
 date:   2015-03-31 00:00:00
 tags: [scala, slick]
 ---
@@ -8,7 +8,7 @@ tags: [scala, slick]
 I switch recently one project to [Slick v3](http://slick.typesafe.com/doc/3.0.0-RC2/). And I wanted to share with you a simple example of an [sbt](http://www.scala-sbt.org/) project using [MySQL](http://www.mysql.com/).
 The project contains only one table named `action`.
 
-## MySQL Table
+## MySQL table
 {% highlight mysql %}
 DROP TABLE IF EXISTS `action`;
 CREATE TABLE `action` (
@@ -20,7 +20,7 @@ CREATE TABLE `action` (
   DEFAULT CHARSET = utf8;
 {% endhighlight %}
 
-## SBT Generator configuration
+## SBT generator configuration
 The `build.sbt` file looks like the following.
 This configuration will generate the code in a class named `Tables.scala`.
 
