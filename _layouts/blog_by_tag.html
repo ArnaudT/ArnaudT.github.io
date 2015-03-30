@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="wrapper">
+        <h1>Articles by tag: {{ page.tag }}</h1>
+        <div>
+            {% if site.tags[page.tag] %}
+              <ul class="fa-ul">
+                {% for post in site.tags[page.tag] %}
+                    <li><i class="fa-li fa fa-square"></i><a href="{{ post.url }}/">{{ post.title }}</a></li>
+                {% endfor %}
+              <ul>
+            {% else %}
+                <p>There are no posts for this tag.</p>
+            {% endif %}
+        </div>
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

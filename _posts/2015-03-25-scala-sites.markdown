@@ -2,7 +2,7 @@
 layout: post
 title:  "Scala & Akka Best Practices"
 date:   2015-03-25 23:20:31
-categories: scala tips
+tags: [scala, akka]
 ---
 
 ## Scala
@@ -26,5 +26,5 @@ categories: scala tips
 * [best-practices-with-akka-in-scala-and-third-party-java-libraries](http://stackoverflow.com/questions/25094568/best-practices-with-akka-in-scala-and-third-party-java-libraries)
 
 ### Exercises
- 
+
 [https://twitter.com/scalatutorials](https://twitter.com/scalatutorials)
