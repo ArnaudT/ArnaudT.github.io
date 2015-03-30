@@ -1,6 +1,6 @@
 # Site settings
-title: Scala World
-email: arnaudtanguy@gmail.com
+title: My Blog around Scala
+# email: arnaudtanguy@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   I created this blog to share some snippets with you!
   Let's write a better code together! :D
