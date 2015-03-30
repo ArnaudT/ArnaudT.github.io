@@ -1,0 +1,13 @@
+# Site settings
+title: Scala World
+email: arnaudtanguy@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  I created this blog to share some snippets with you!
+  Let's write a better code together! :D
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: ArnaudTanguy
+github_username:  ArnaudT
+
+# Build settings
+markdown: kramdown
