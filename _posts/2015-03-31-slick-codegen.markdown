@@ -5,7 +5,7 @@ date:   2015-03-31 00:00:00
 tags: [scala, slick]
 ---
 
-I switch recently one project to [Slick v3](http://slick.typesafe.com/doc/3.0.0-RC2/). And I wanted to share with you a simple example of an [sbt](http://www.scala-sbt.org/) project using [MySQL](http://www.mysql.com/).
+I have recently switched one project to [Slick v3](http://slick.typesafe.com/doc/3.0.0-RC2/). And I wanted to share with you a simple example of an [sbt](http://www.scala-sbt.org/) project using [MySQL](http://www.mysql.com/).
 The project contains only one table named `action`.
 
 ## MySQL table
